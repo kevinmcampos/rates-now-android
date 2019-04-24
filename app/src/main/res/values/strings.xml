@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Rates Now</string>
+
+    <string name="CURRENCY_AUD">Australian dollar</string>
+    <string name="CURRENCY_BGN">Bulgarian lev</string>
+    <string name="CURRENCY_BRL">Brazilian real</string>
+    <string name="CURRENCY_CAD">Canadian dollar</string>
+    <string name="CURRENCY_CHF">Swiss franc</string>
+    <string name="CURRENCY_CNY">Chinese yuan</string>
+    <string name="CURRENCY_CZK">Czech koruna</string>
+    <string name="CURRENCY_DKK">Danish krone</string>
+    <string name="CURRENCY_GBP">British pound</string>
+    <string name="CURRENCY_HKD">Hong Kong dollar</string>
+    <string name="CURRENCY_HRK">Croatian kuna</string>
+    <string name="CURRENCY_HUF">Hungarian forint</string>
+    <string name="CURRENCY_IDR">Indonesian rupiah</string>
+    <string name="CURRENCY_ILS">Israeli new shekel</string>
+    <string name="CURRENCY_INR">Indian rupee</string>
+    <string name="CURRENCY_JPY">Japanese yen</string>
+    <string name="CURRENCY_KRW">South Korean won</string>
+    <string name="CURRENCY_MXN">Mexican peso</string>
+    <string name="CURRENCY_MYR">Malaysian ringgit</string>
+    <string name="CURRENCY_NOK">Norwegian krone</string>
+    <string name="CURRENCY_NZD">New Zealand dollar</string>
+    <string name="CURRENCY_PHP">Philippine peso</string>
+    <string name="CURRENCY_PLN">Polish złoty</string>
+    <string name="CURRENCY_RON">Romanian leu</string>
+    <string name="CURRENCY_RUB">Russian ruble</string>
+    <string name="CURRENCY_SEK">Swedish krona</string>
+    <string name="CURRENCY_SGD">Singapore dollar</string>
+    <string name="CURRENCY_THB">Thai baht</string>
+    <string name="CURRENCY_TRY">Turkish lira</string>
+    <string name="CURRENCY_USD">United States dollar</string>
+    <string name="CURRENCY_ZAR">South African rand</string>
+</resources>

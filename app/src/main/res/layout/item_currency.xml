@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:gravity="center_vertical"
+              android:layout_height="wrap_content">
+
+    <ImageView
+            android:id="@+id/currency_flag"
+            android:layout_width="40dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_height="40dp"
+            tools:src="@drawable/br"/>
+
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/currency_symbol"
+                android:layout_width="match_parent"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:textSize="16sp"
+                android:text="BRL"/>
+
+        <TextView
+                android:id="@+id/currency_name"
+                android:layout_width="match_parent"
+                android:textColor="#888"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                tools:text="Real brasileiro"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+        <EditText
+                android:id="@+id/currency_input_value"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:textSize="22sp"
+                android:gravity="center"
+                android:layout_marginLeft="-4dp"
+                android:paddingBottom="16dp"
+                android:layout_marginRight="-4dp"
+                android:inputType="numberDecimal"
+                android:hint="0"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>
